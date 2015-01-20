@@ -13,6 +13,8 @@
     <link href="../css/custom.css" rel="stylesheet"> <!-- Custom CSS-->
     <script src="../js/jquery.js"></script><!--Jquery pre-loaded -->
 
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
   </head>
   <body>
     <div class="container"> <!-- Static navbar -->
@@ -76,11 +78,9 @@
         
        <!--google maps code-->
         <div class="col-md-8 text-centered">
-              <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
               <!-- <div style="overflow:hidden;height:30em;width:30em;"> -->
               <div id="gmap_canvas" style="height:30em;width:30em;margin-left:auto;margin-right:auto;"></div>
-              <style>#gmap_canvas img{max-width:none!important;background:none!important}
-              </style><!-- </div> -->
+              <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
               <script type="text/javascript"> 
                    function init_map(){
                             var myOptions = {zoom:15,center:new google.maps.LatLng(38.308869777907944,-77.51037730527952),mapTypeId: google.maps.MapTypeId.ROADMAP};
@@ -107,9 +107,9 @@
         <div class="container text-center">
         <p style="text-center">&copy; Company 2014 </p>
         <p style="text-center">
-        <a  href="../index.html">Home</a>| 
-        <a  href="menu.html">Menu</a>| 
-        <a  href="creations.html">Creations</a>|
+        <a  href="../index.html">Home</a>&nbsp;| 
+        <a  href="menu.html">Menu</a>&nbsp;| 
+        <a  href="creations.html">Creations</a>&nbsp;|
         <a  href="location.html">Hours &amp; Locations</a>&nbsp;|
         <a  href="delivery.html">Delivery</a>&nbsp;|
         <a  href="catering.html">Catering</a>&nbsp;|

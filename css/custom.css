@@ -1,13 +1,15 @@
 body {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-image: url(../image/chocho.jpg);
+  padding-top: 0px;
+  padding-bottom: 1px;
+  background-image: url(../image/background.jpg);
   background-repeat: repeat;
 }
 
 .navbar {
   margin-bottom: 5px;
+  min-height:40px;
 }
+
 
 
 /*Custom css for page. This are alterations made to the original css file so they must be kept linked to after original css on page.*/
@@ -20,13 +22,10 @@ body {
     border-color: #e7e7e7
 }
 
-/*navbar text color*/
-.navbar-default .navbar-nav>li>a {
-    color: #fff
-}
-.navbar-default .navbar-toggle .icon-bar {
+
+/*.navbar-default .navbar-toggle .icon-bar {
 	color:#fff;
-}
+}*/
 
 /*navbar button click/hover*/
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -34,12 +33,14 @@ body {
     background-color: #115069
 }
 
-.navbar-default .navbar-toggle {
-	border-color: #fff;
-}
 
+/*the dropdown button in the navbar*/
+.navbar-default .navbar-toggle {
+	border-color:  #000;
+}
+/*the 3 lines inside the dropdown button*/
 .navbar-default .navbar-toggle .icon-bar {
-	background-color:#fff;
+	background-color:#000;
 }
 
 
@@ -52,7 +53,7 @@ body {
 
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #115069
+    background-color: #187296
 }
 
 
@@ -63,5 +64,16 @@ body {
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
     color: #fff;
-    background-color: #115069
+    background-color: #187296
 }
+
+
+
+
+
+
+
+
+
+
+
