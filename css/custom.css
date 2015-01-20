@@ -10,7 +10,12 @@ body {
   min-height:40px;
 }
 
-
+.jumbotron {
+    padding: 20px 15px;
+    margin-bottom: 5px;
+    color: inherit;
+    background-color: #eee
+}
 
 /*Custom css for page. This are alterations made to the original css file so they must be kept linked to after original css on page.*/
 
