@@ -1,0 +1,67 @@
+body {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-image: url(../image/chocho.jpg);
+  background-repeat: repeat;
+}
+
+.navbar {
+  margin-bottom: 5px;
+}
+
+
+/*Custom css for page. This are alterations made to the original css file so they must be kept linked to after original css on page.*/
+
+
+
+/*navbar color*/
+.navbar-default {
+    background-color: #187296;
+    border-color: #e7e7e7
+}
+
+/*navbar text color*/
+.navbar-default .navbar-nav>li>a {
+    color: #fff
+}
+.navbar-default .navbar-toggle .icon-bar {
+	color:#fff;
+}
+
+/*navbar button click/hover*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #115069
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:#fff;
+}
+
+
+
+.navbar-toggle {
+	border: 2px solid transparent;
+}
+
+
+
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #115069
+}
+
+
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+    background-color: transparent
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: #fff;
+    background-color: #115069
+}
