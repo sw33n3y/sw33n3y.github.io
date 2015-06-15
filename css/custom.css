@@ -1,18 +1,12 @@
-body {
-  padding-top: 0px;
-  padding-bottom: 1px;
-  background-image: url(image/peru.jpg);
-  background-repeat: repeat;
-}
+
 
 .navbar {
-  margin-bottom: 5px;
+  margin-bottom: .4em;
   min-height:40px;
 }
 
 .jumbotron {
-    padding: 20px 15px;
-    margin-bottom: 5px;
+    padding: 1em;
     color: inherit;
     background-color: #eee
 }
